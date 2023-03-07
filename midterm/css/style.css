@@ -1,3 +1,4 @@
+/* creating a container containing everything inside the body tag */
 .container{
     margin-left: 200px;
     margin-right: 200px;
@@ -63,6 +64,7 @@ nav ul {
     padding:0;
     margin:0;
     text-align: center;
+    /* % changes depending on browser size */
     width: 100%;
     overflow: hidden;
 }
@@ -74,6 +76,7 @@ nav li{
     margin-top: 2px;
 }
 
+/* Position Selectors */
 nav li:last-child {
     border-right: none;
   }
@@ -84,12 +87,15 @@ nav a{
     display: block;
     text-align: center;
     color: black;
+     /* Single value: top, bottom, left, right */
     padding: 10px 0 10px 10px;
     margin-right: 0px;
 
 }
 
-nav a:hover{
+/* Pseudo Classes */
+nav ul a:hover,
+nav ul a:focus{
     background-color: #aad4cf;
 }
 
