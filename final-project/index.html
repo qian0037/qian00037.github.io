@@ -41,6 +41,7 @@
             <a href="connect">Connect with us</a>
             <img src="img/main-banner.jpg" alt="A picture of our office">
         </div>
+        </header>
         <main>
             <section id="about">
                 <h1>
@@ -118,6 +119,7 @@
                             <h3>
                                 CEO and Co-owner
                             </h3>
+                            <hr>
                             <p>
                                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta delectus ipsum assumenda ex excepturi aspernatur cum repellat architecto molestias, amet deserunt dolorem at ea corporis corrupti, magnam sunt sequi dignissimos!
                             </p>
@@ -129,15 +131,74 @@
                                 <h3>
                                     CFO and Co-owner
                                 </h3>
+                                <hr>
                                 <p>
                                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta delectus ipsum assumenda ex excepturi aspernatur cum repellat architecto molestias, amet deserunt dolorem at ea corporis corrupti, magnam sunt sequi dignissimos!
                                 </p>
                         </section>
                 </section>
+                <section id="contact">
+                    <h1>
+                        Send us a message
+                    </h1>
+                    <form action="contact.html" method="get">
+                        <div>
+                            <label for="fullname">Full name</label>
+                            <br>
+                            <input class="name" type="text" name="fullname" id="fullname" required>
+                        </div>
+                        <div>
+                            <label for="email">Email</label>
+                            <br>
+                            <input class="email" type="email" name="youremail" id="email" required>
+                        </div>
+                        <div>
+                            <label for="message">Message</label>
+                            <br>
+                            <input class="message" type="text" name="message" id="message">
+                        </div>
+                        </form>  
+                </section>
+                <section>
+                    <div class="operation">
+                    <h1>
+                        Hours of operation
+                    </h1>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th colspan="2">Days</th>
+                                <th rowspan="2">Hours</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th>Monday - Friday</th>
+                                <th>9AM - 6PM</th>
+                            </tr>
+                            <tr>
+                                <th>Saturday - Sunday</th>
+                                <th>Closed</th>
+                            </tr>
+                        </tbody>
+                    </table>
+                    </div>
+                </section>
+                <section>
+                    <div class="location">
+                    <h1>
+                        Location
+                    </h1>
+                </div>
+                </section>
             </section>
-            
         </main>
-    </header>
 </div>
 </body>
+<footer>
+    &copy; Copyright Three Star Media, 2020
+    <br>
+    All images are taken from <a href="unsplash.com">Unsplash</a>
+</footer>
 </html>
+
