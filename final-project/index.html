@@ -4,22 +4,22 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- Custom Styles -->
-<link rel="stylesheet" href="css/main.css">
-<link rel="stylesheet" href="css/reset.css">
     <!-- Font Link Styles -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">  
     <!-- Icon Link Styles -->
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <title>Three Star Media</title>
+       <!-- Custom Styles -->
+       <link rel="stylesheet" href="css/reset.css">
+       <link rel="stylesheet" href="css/main.css">
+<title>Three Star Media</title>
 </head>
 <body>
     <div class="container">
          <!-- Site Header -->
     <header class="masthead">
-         <!-- Navigation -->
+         <!-- Navigation is inside the header-->
         <nav class="main-nav">
             <div class="logo">
                  <!-- Adding an image -->
@@ -43,25 +43,28 @@
                     <a href="#contact">Contact</a>
                     </li>
             </ul>
+            <div class="search">
+                <input type="search" placeholder="Search" name="search">
+                <button class="searchbutton" type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+            </div>
         </nav>
-        <div class="search">
-            <input type="search" placeholder="Search" name="search">
-            <button class="searchbutton" type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
-        </div>
+        
         <div class="banner">
+            <div class="bannercontent">
             <h1>
                 Welcome to Three Star Media
             </h1>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus asperiores quaerat laboriosam magnam explicabo? Atque blanditiis ratione molestias. Consectetur necessitatibus obcaecati officiis quod. Vel facilis distinctio maxime natus eos veritatis!</p>
             <button class="connectus"><a href="connect">Connect with us</a></button>
+        </div>
             </div>
         </header>
           <!-- starting the main content of the page -->
         <main class="content">
             <!-- Adding section for content about us-->
-            <section id="about">
+            <section id="aboutus" class="about">
                 <img src="images/about-us.jpg" alt="About us" class="aboutus-img">
-                <div class="aboutcontent">
+                <div class="about-content">
                 <h2>
                     About Us
                 </h2>
@@ -72,7 +75,7 @@
                 </p>
             </div>
             </section>
-            <section id="services">
+            <section id="ourservices" class="services">
                 <h2>
                     Our Services
                 </h2>
@@ -142,16 +145,17 @@
                     <p>
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta delectus ipsum assumenda ex excepturi aspernatur cum repellat architecto molestias, amet deserunt dolorem at ea corporis corrupti, magnam sunt sequi dignissimos!
                     </p>
-
                     <br>
                    <button class="button-print"> <a href="print.html" class="anchorTag">Print Plans
                         <i class="fa-sharp fa-solid fa-play"></i></a>
                         </button>
                     </div>
+                
+            </section>
                     <!-- Adding section for vision content -->
                         <section class="vision">
                             <img src="images/vision.jpg" alt="vision">
-                            <div class="visioncontent">
+                            <div class="vision-content">
                         <h3>
                             Our Vision
                         </h3>
@@ -163,20 +167,21 @@
                         <button class="button-vision"><a href="learn.html" class="anchorTag">Learn More <i class="fa-sharp fa-solid fa-play"></i></a>
                         </div>
                     </button>
-                    </section>
+            </section>
                         <!-- Adding section for team content-->
                         <section id="team">
                             <div class="ourteam">
-                                
                             <h2>
                                 Our Team
                             </h2>
-                            <div class="CEO"> 
-                            <img src="images/john.jpg" alt="A picture of John Doe">
+                            <div class="team-content">
+                            <div class="john"> 
+                            <img src="images/john.jpg" alt="A picture of John Doe" class="john-img">
+                            <div class="john-content"></div>
                          <h3>
                                 John Doe
                             </h3>
-                            <h5>
+                            <h5 class="john">
                                 CEO and Co-owner
                             </h5>
                             <hr>
@@ -184,8 +189,10 @@
                                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta delectus ipsum assumenda ex excepturi aspernatur cum repellat architecto molestias, amet deserunt dolorem at ea corporis corrupti, magnam sunt sequi dignissimos!
                             </p>
                         </div>
-                        <div class="CFO">
-                                <img src="images/bob.jpg" alt="A picture of Bob Rite">
+                    </div>
+                        <div class="bob">
+                                <img src="images/bob.jpg" alt="A picture of Bob Rite" class="bob-img">
+                                <div class="bob-content">
                                 <h3>
                                     Bob Rite
                                 </h3>
@@ -198,16 +205,19 @@
                                 </p>
                             </div>
                             </div>
+                            </div>
+                        </div>
                 </section>
                 <!-- Adding section for contact form-->
                 <section id="contact" class="contact">
                     <h2>
                         Contact Us
                     </h2>
+                    <div class="contact-content">
                     <h3>
                         Send us a message
                     </h3>
-                    <form action="contact.html" method="get">
+                    <form class="contactform" action="contact.html" method="get">
                         <div>
                             <label for="fullname">Full name</label>
                             <br>
@@ -227,7 +237,7 @@
                             <button class="button" type="submit">Send</button>
                         </div>
                         </form>  
-                </section>
+                    </div>
                  <!-- Adding section for operation table-->
                     <div class="operation">
                     <h3>
@@ -253,7 +263,7 @@
                     </table>
                     </div>
                  <!-- Adding section for map-->
-                
+
                     <div class="location">
                     <h3>
                         Location
@@ -262,7 +272,7 @@
                         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d11215.778950128877!2d-75.77244626044919!3d45.3499278!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cce0718cc4a6ad7%3A0xc6cc467725843e2b!2sAlgonquin%20College%20Ottawa%20Campus!5e0!3m2!1sen!2sca!4v1680029741492!5m2!1sen!2sca" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                     </div> 
                 </div>
-                
+            </section>
             </section>
         </main>
 </div>
