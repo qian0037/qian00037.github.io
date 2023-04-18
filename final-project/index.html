@@ -4,12 +4,17 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Custom Styles -->
+<link rel="stylesheet" href="css/main.css">
+<link rel="stylesheet" href="css/reset.css">
+    <!-- Font Link Styles -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">  
     <!-- Icon Link Styles -->
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <title>Three Star Media</title>
 </head>
-<!-- Custom Styles -->
-<link rel="stylesheet" href="css/main.css">
 <body>
     <div class="container">
          <!-- Site Header -->
@@ -40,113 +45,135 @@
             </ul>
         </nav>
         <div class="search">
-            <input type="text" placeholder="Search">
-            <button type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+            <input type="search" placeholder="Search" name="search">
+            <button class="searchbutton" type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
         </div>
         <div class="banner">
             <h1>
                 Welcome to Three Star Media
             </h1>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus asperiores quaerat laboriosam magnam explicabo? Atque blanditiis ratione molestias. Consectetur necessitatibus obcaecati officiis quod. Vel facilis distinctio maxime natus eos veritatis!</p>
-            <a href="connect">Connect with us</a>
-            <img src="images/main-banner.jpg" alt="A picture of our office">
-        </div>
+            <button class="connectus"><a href="connect">Connect with us</a></button>
+            </div>
         </header>
           <!-- starting the main content of the page -->
         <main class="content">
             <!-- Adding section for content about us-->
             <section id="about">
+                <img src="images/about-us.jpg" alt="About us" class="aboutus-img">
+                <div class="aboutcontent">
                 <h2>
                     About Us
                 </h2>
-                <p>
+                <p >
                     Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aperiam officiis dolor quod ut deleniti, laudantium ratione, natus necessitatibus consequatur ab saepe voluptatem praesentium omnis architecto neque repudiandae cumque quisquam ipsam.
                     
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere, dolorum? Odio magnam reiciendis ex rerum in consequatur itaque dolorum porro temporibus numquam optio consequuntur suscipit, nam laudantium sequi adipisci natus!
                 </p>
-                <img src="images/about-us.jpg" alt="About us">
+            </div>
             </section>
-            <section id="service">
+            <section id="services">
                 <h2>
                     Our Services
                 </h2>
                 <!-- Adding section for digital content -->
-                <section id="digital">
+                <div class="digital">
+                    <img src="images/digital.jpg" alt="digital">
                 <h3>
                     Digital transformation
                 </h3>
                 <p>
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta delectus ipsum assumenda ex excepturi aspernatur cum repellat architecto molestias, amet deserunt dolorem at ea corporis corrupti, magnam sunt sequi dignissimos!
                 </p>
-                <img src="images/digital.jpg" alt="digital">
+        
                 <br>
-                <a href="digital.html" class="anchorTag">Digital Plans <i class="fa-sharp fa-solid fa-play"></i></a>
+                <button class="button-digital"><a href="digital.html" class="anchorTag">Digital Plans <i class="fa-sharp fa-solid fa-play"></i></a>
+            </button>
+        </div>
             </section>
             <!-- Adding section for marketing content -->
-            <section id="marketing">
+            <div class="marketing">
+                <img src="images/marketing.jpg" alt="marketing">
                 <h3>
                     Marketing
                 </h3>
                 <p>
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta delectus ipsum assumenda ex excepturi aspernatur cum repellat architecto molestias, amet deserunt dolorem at ea corporis corrupti, magnam sunt sequi dignissimos!
                 </p>
-                <img src="images/marketing.jpg" alt="marketing">
+                
                 <br>
-                <a href="marketing.html" class="anchorTag">Marketing Plans <i class="fa-sharp fa-solid fa-play"></i></a>
-            </section>
+                <button class="button-marketing"><a href="marketing.html" class="anchorTag">Marketing Plans <i class="fa-sharp fa-solid fa-play"></i></a>
+                </button>
+             </div>
             <!-- Adding section for video content -->
-            <section id="video">
+            <div class="video">
+                <img src="images/video.jpg" alt="video">
                 <h3>
                     Video Production
                 </h3>
                 <p>
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta delectus ipsum assumenda ex excepturi aspernatur cum repellat architecto molestias, amet deserunt dolorem at ea corporis corrupti, magnam sunt sequi dignissimos!
                 </p>
-                <img src="images/video.jpg" alt="video">
+                
                 <br>
-                <a href="video.html" class="anchorTag">Video Plans <i class="fa-sharp fa-solid fa-play"></i></a>
-            </section>
+                <button class="button-video"><a href="video.html" class="anchorTag">Video Plans <i class="fa-sharp fa-solid fa-play"></i></a>
+            </button>
+        </div>
             <!-- Adding section for web content -->
-            <section id="web">
+            <div class="web">
+                <img src="images/web.jpg" alt="web">
                 <h3>
                     Web Development
                 </h3>
                 <p>
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta delectus ipsum assumenda ex excepturi aspernatur cum repellat architecto molestias, amet deserunt dolorem at ea corporis corrupti, magnam sunt sequi dignissimos!
                 </p>
-                <img src="images/web.jpg" alt="web">
+                
                 <br>
-                <a href="web.html" class="anchorTag">Web Plans <i class="fa-sharp fa-solid fa-play"></i></a>
+                <button class="button-web"><a href="web.html" class="anchorTag">Web Plans <i class="fa-sharp fa-solid fa-play"></i></a>
+                </button>
+            </div>
                 <!-- Adding section for print content -->
-                <section id="print">
+                <div class="print">
+                    <img src="images/print.jpg" alt="print">
                     <h3>
                         Print
                     </h3>
                     <p>
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta delectus ipsum assumenda ex excepturi aspernatur cum repellat architecto molestias, amet deserunt dolorem at ea corporis corrupti, magnam sunt sequi dignissimos!
                     </p>
-                    <img src="images/print.jpg" alt="print">
+
                     <br>
-                    <a href="print.html" class="anchorTag">Print Plans
+                   <button class="button-print"> <a href="print.html" class="anchorTag">Print Plans
                         <i class="fa-sharp fa-solid fa-play"></i></a>
+                        </button>
+                    </div>
                     <!-- Adding section for vision content -->
-                        <section id="vision">
+                        <section class="vision">
+                            <img src="images/vision.jpg" alt="vision">
+                            <div class="visioncontent">
                         <h3>
                             Our Vision
                         </h3>
                         <p>
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta delectus ipsum assumenda ex excepturi aspernatur cum repellat architecto molestias, amet deserunt dolorem at ea corporis corrupti, magnam sunt sequi dignissimos!
                         </p>
-                        <img src="images/vision.jpg" alt="vision">
+                        
                         <br>
-                        <a href="learn.html" class="anchorTag">Learn More <i class="fa-sharp fa-solid fa-play"></i></a>
+                        <button class="button-vision"><a href="learn.html" class="anchorTag">Learn More <i class="fa-sharp fa-solid fa-play"></i></a>
+                        </div>
+                    </button>
+                    </section>
                         <!-- Adding section for team content-->
                         <section id="team">
+                            <div class="ourteam">
+                                
                             <h2>
                                 Our Team
                             </h2>
-                            <section id="CEO">
-                            <h3>
+                            <div class="CEO"> 
+                            <img src="images/john.jpg" alt="A picture of John Doe">
+                         <h3>
                                 John Doe
                             </h3>
                             <h5>
@@ -156,9 +183,9 @@
                             <p>
                                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta delectus ipsum assumenda ex excepturi aspernatur cum repellat architecto molestias, amet deserunt dolorem at ea corporis corrupti, magnam sunt sequi dignissimos!
                             </p>
-                            <img src="images/john.jpg" alt="A picture of John Doe">
-                            </section>
-                            <section id="CFO">
+                        </div>
+                        <div class="CFO">
+                                <img src="images/bob.jpg" alt="A picture of Bob Rite">
                                 <h3>
                                     Bob Rite
                                 </h3>
@@ -169,11 +196,11 @@
                                 <p>
                                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta delectus ipsum assumenda ex excepturi aspernatur cum repellat architecto molestias, amet deserunt dolorem at ea corporis corrupti, magnam sunt sequi dignissimos!
                                 </p>
-                                <img src="images/bob.jpg" alt="A picture of Bob Rite">
-                        </section>
+                            </div>
+                            </div>
                 </section>
                 <!-- Adding section for contact form-->
-                <section id="contact">
+                <section id="contact" class="contact">
                     <h2>
                         Contact Us
                     </h2>
@@ -184,27 +211,29 @@
                         <div>
                             <label for="fullname">Full name</label>
                             <br>
-                            <input class="name" type="text" name="fullname" id="fullname" required>
+                            <input class="input" type="text" name="fullname" id="fullname" required>
                         </div>
                         <div>
                             <label for="email">Email</label>
                             <br>
-                            <input class="email" type="email" name="youremail" id="email" required>
+                            <input class="input" type="email" name="email" id="email" required>
                         </div>
                         <div>
                             <label for="message">Message</label>
                             <br>
-                            <input class="message" type="text" name="message" id="message">
+                            <input class="input" name="message" id="message">
+                        </div>
+                        <div>
+                            <button class="button" type="submit">Send</button>
                         </div>
                         </form>  
                 </section>
                  <!-- Adding section for operation table-->
-                <section>
                     <div class="operation">
                     <h3>
                         Hours of operation
                     </h3>
-                    <table>
+                    <table class="operationhours">
                         <thead>
                             <tr>
                                 <th>Days</th>
@@ -223,9 +252,8 @@
                         </tbody>
                     </table>
                     </div>
-                </section>
                  <!-- Adding section for map-->
-                <section>
+                
                     <div class="location">
                     <h3>
                         Location
@@ -234,7 +262,7 @@
                         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d11215.778950128877!2d-75.77244626044919!3d45.3499278!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cce0718cc4a6ad7%3A0xc6cc467725843e2b!2sAlgonquin%20College%20Ottawa%20Campus!5e0!3m2!1sen!2sca!4v1680029741492!5m2!1sen!2sca" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                     </div> 
                 </div>
-                </section>
+                
             </section>
         </main>
 </div>
