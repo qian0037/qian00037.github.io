@@ -1,10 +1,13 @@
 /* Global Styles */
 
-/* Styling width and position*/
+
+/* Setting the font for html */
 
 html{
     font-family: 'Open Sans', sans-serif;
 }
+
+/* Styling width and position for the website */
 
 .container{
     max-width: 1200px;
@@ -138,13 +141,13 @@ h5{
 
 .banner {
     background-image: url(../images/main-banner.jpg);
+    /* background image width should be 100% */
+    width: 100%;
     background-size: cover;
     background-repeat: no-repeat;
     margin: 0;
     padding-top: 120px;
     height: 800px;
-    background-position: 50% 50%;
-    width: 100%;
 
 }
 .banner h1{
@@ -160,6 +163,8 @@ h5{
     padding: 2em;
     margin: 30px;
 }
+
+/* Styling the clickable anchor tag */
 
 .button-connect {
     font-size: 20px;
@@ -201,9 +206,9 @@ width: 100%;
     padding-top: 20px;
     padding-bottom: 20px;
 }
-/* Styling Vision */
+/* Styling Vision - similar to the banner*/
 
-.vision {
+.our-vision {
     background-image: url(../images/vision.jpg);
     background-size: cover;
     background-repeat: no-repeat;
@@ -227,29 +232,33 @@ width: 100%;
 
 /* Styling Our Team */
 
-.ourteam {
+.team-content{
+    display: flex;
+
+}
+/* .team {
     background-color: white;
     padding: 30px;
-}
+} */
 
-.john-content, .bob-content{
-    margin-bottom: 20px;
-    margin-top: 10px;
-    margin-left: 30px;
-    margin-right: 30px;
-}
+/* Flex 50% each */
 
-.ourteam img {
+.team img {
     flex-basis: 50%;
+    padding: 0;
 }
 
-hr {
+.team hr {
     border: 1px solid #c78c06;
 }
 
 .john,
 .bob {
     background-color: #ffe6ac;
+}
+
+.john-content, .bob-content{
+    padding: 10px;
 }
 
 /* Style- Contact Us */
@@ -277,13 +286,6 @@ margin-bottom: 15px;
     text-align: center;
     text-decoration: none;
     padding: 5px;
-}
-
-/* Styling map*/
-
-.location iframe {
-    width: 95%;
-    margin: 0 auto;
 }
 
 /* Styling Operation Hours */
@@ -331,6 +333,11 @@ table thead {
         padding: 30px;
     }
 
+    .main-nav li {
+        margin: 20px 20px;
+        flex-grow: 1;
+    }
+
     .nav-list {
         display: flex;
         flex-grow: 1;
@@ -340,11 +347,6 @@ table thead {
         justify-content: flex-start;
     }
 
-   li {
-        display: inline;
-        margin: 20px 20px;
-        flex-grow: 1;
-    }
 
 /* Styling the banner */
 
@@ -425,7 +427,6 @@ table thead {
     }
 
     /* Styling contact form */
-
     .contactus{
         display: grid;
         grid-template-columns:repeat(2, 1fr);
