@@ -9,12 +9,7 @@ html{
 .container{
     max-width: 1200px;
     margin: 0 auto;
-}
-
-.max-width {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 1em;
+    padding: 10px;
 }
 
 img {
@@ -242,13 +237,13 @@ width: 100%;
 }
 
 .ourteam img {
-    width: 100%;
-    height: 100%;
+    flex-basis: 50%;
 }
 
 hr {
     border: 1px solid #c78c06;
 }
+
 .john,
 .bob {
     background-color: #ffe6ac;
@@ -356,7 +351,7 @@ table thead {
         margin: 0 auto;
     }
 
-/* About Us section should be in 2 columns */
+/*  Grids should be in 2 columns in About Us section */
 
 .about {
         display: grid;
@@ -367,6 +362,8 @@ table thead {
 .about-text{
     padding: 10px;
 }
+
+/* Adding 3 rows and 6 columns for grids */
 
  .services  {
         display: grid;
