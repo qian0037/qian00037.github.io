@@ -1,39 +1,38 @@
 /* Global Styles */
 
-
 /* Setting the font for html */
 
-html{
-    font-family: 'Open Sans', sans-serif;
+html {
+  font-family: "Open Sans", sans-serif;
 }
 
 /* Styling width and position for container */
 
-.container{
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 10px;
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 10px;
 }
 
 img {
-    width: 100%;
+  width: 100%;
 }
 
-body{
-    line-height: 1.5;
+body {
+  line-height: 1.5;
 }
 
 /* LoVe HAte - Link, visited, hover, active */
 
 a,
 a:link,
-a:visited{
-    color:inherit;
+a:visited {
+  color: inherit;
 }
 
 a:hover,
-a:focus{
-    color: black;
+a:focus {
+  color: black;
 }
 
 /* Styling font weight */
@@ -42,62 +41,62 @@ h1,
 h2,
 h3,
 h4,
-h5{
-    font-weight: bold;
+h5 {
+  font-weight: bold;
 }
 
 /* Styling font size */
 
-h1{
-    font-size: 5.063rem;
+h1 {
+  font-size: 5.063rem;
 }
 
-h2{
-    font-size: 3.375rem;
+h2 {
+  font-size: 3.375rem;
 }
 
-h3{
-    font-size: 2.25rem;
+h3 {
+  font-size: 2.25rem;
 }
 
-h4{
-    font-size: 1.5rem;
+h4 {
+  font-size: 1.5rem;
 }
 
-h5{
-    font-size: 1rem;
+h5 {
+  font-size: 1rem;
 }
 
 /* Adding background colours to services */
 .card {
-    background-color: #ffe6ac;
-    margin: 20px;
+  background-color: #ffe6ac;
+  margin: 20px;
 }
 
-.card-content{
-    padding: 10px;
+.card-content {
+  padding: 10px;
 }
-/*****************  
+/**********************  
     Mobile Style
-******************/
+***********************/
 
 /* Styling Heading */
 /* Styling the logo */
 .logo {
-    display: flex;
-    background-color: #c78c06;
-    align-items: flex-start;
-    padding: 0;
+  display: flex;
+  background-color: #c78c06;
+  align-items: flex-start;
+  padding: 0;
 }
 
 /* Styling Navigation */
 
 .nav {
-    text-align: center;
-    background-color: #222;
-    max-width: 1200px;
-    margin: 0 auto;
-    border: 10px solid #222;
+  text-align: center;
+  background-color: #222;
+  max-width: 1200px;
+  margin: 0 auto;
+  border: 10px solid #222;
 }
 
 /* Styling the navigation list */
@@ -106,347 +105,341 @@ h5{
 .nav-list a,
 .nav-list a:link,
 .nav-list a:visited {
-    padding: 1.5em 0;
-    text-align: center;
-    display:block;
-    text-decoration: none;
-    background-color: #222;
-    color: #c78c06;
+  padding: 1.5em 0;
+  text-align: center;
+  display: block;
+  text-decoration: none;
+  background-color: #222;
+  color: #c78c06;
 }
 .nav-list a:hover,
 .nav-list a:focus,
 .nav-list a.current {
-    background-color: #c78c06;
-    color:#222;
+  background-color: #c78c06;
+  color: #222;
 }
 /* Styling the search bar */
-.search{
-    display:flex;
-    justify-content: center;
-    background-color: #222;
-    height: 50px;
-    margin: 0 auto;
+.search {
+  display: flex;
+  justify-content: center;
+  background-color: #222;
+  height: 50px;
+  margin: 0 auto;
 }
-.search input{
-    width: 80%;
-    padding: 10px;
+.search input {
+  width: 80%;
+  padding: 10px;
 }
 .button-search {
-    color: #c78c06;
-    background-color: #222;
-    padding: 15px;
-    font-size: 1rem;
-    border: 1.5px solid #c78c06;
-    
+  color: #c78c06;
+  background-color: #222;
+  padding: 15px;
+  font-size: 1rem;
+  border: 1.5px solid #c78c06;
 }
 
 /* Styling the Banner */
 
 .banner {
-    background-image: url(../images/main-banner.jpg);
-    /* background image width should be 100% */
-    width: 100%;
-    background-size: cover;
-    background-repeat: no-repeat;
-    margin: 0 auto;
-    padding-top: 120px;
-    height: 800px;
-
+  background-image: url(../images/main-banner.jpg);
+  /* background image width should be 100% */
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 0 auto;
+  padding-top: 120px;
+  height: 800px;
 }
-.banner h1{
-    color: white;
-    margin: 10px;
+.banner h1 {
+  color: white;
+  margin: 10px;
 }
-.banner p{
-    color: white;
-    margin: 10px;
+.banner p {
+  color: white;
+  margin: 10px;
 }
 .banner-content {
-    background-color: rgba(0, 0, 0, 0.6);
-    padding: 2em;
-    margin: 30px;
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 2em;
+  margin: 30px;
 }
 
 /* Styling the clickable anchor tag */
 
 .button-connect {
-    font-size: 20px;
-    text-decoration: none;
-    padding: 30px;
-    background-color: #c78c06;
-    color: #222;
+  font-size: 20px;
+  text-decoration: none;
+  padding: 30px;
+  background-color: #c78c06;
+  color: #222;
 }
 
 /* Styling About us */
 
-.aboutus-img{
-display: block;
-background-color: #FFE6AC;
-padding: 20px;
-width: 100%;
+.aboutus-img {
+  display: block;
+  background-color: #ffe6ac;
+  padding: 20px;
+  width: 100%;
 }
 
-.about{
-    background-color: #FFE6AC;
-    padding: 20px;
+.about {
+  background-color: #ffe6ac;
+  padding: 20px;
 }
 
 /* Styling Buttons */
 
 .card button {
-    background-color: #222;
-    text-decoration: none;
-    border: none;
-    color: white;
-    padding: 35px;
-    font-size: 20px;
-    margin: 10px;
+  background-color: #222;
+  text-decoration: none;
+  border: none;
+  color: white;
+  padding: 35px;
+  font-size: 20px;
+  margin: 10px;
 }
 
-.card h3{
-    font-size: 2em;
-    padding-top: 20px;
-    padding-bottom: 20px;
+.card h3 {
+  font-size: 2em;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 /* Styling Vision - similar to the banner*/
 
 .our-vision {
-    background-image: url(../images/vision.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: 50% 50%;
+  background-image: url(../images/vision.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
 }
 
 .vision-content {
-    color: white;
-    padding: 15px;
+  color: white;
+  padding: 15px;
 }
 
 .button-vision {
-    background-color: #0B2944;
-    font-size: 20px;
-    color: white;
-    padding: 30px;
-    border: 1px solid #c78c06;
-    text-decoration: none;
-    background-color: rgba(0,0,0,0.6);
+  background-color: #0b2944;
+  font-size: 20px;
+  color: white;
+  padding: 30px;
+  border: 1px solid #c78c06;
+  text-decoration: none;
+  background-color: rgba(0, 0, 0, 0.6);
 }
 
 /* Styling Our Team */
 
-.team-content{
-    display: flex;
-
+.team-content {
+  display: flex;
 }
 .team {
-    background-color: white;
-    margin-top: 20px;
-} 
+  background-color: white;
+  margin-top: 20px;
+}
 
 /* Flex 50% each */
 
 .team img {
-    flex-basis: 50%;
-    padding: 0;
+  flex-basis: 50%;
+  padding: 0;
 }
 
 .team hr {
-    border: 1px solid #c78c06;
+  border: 1px solid #c78c06;
 }
 
 .john,
 .bob {
-    background-color: #ffe6ac;
+  background-color: #ffe6ac;
 }
 
-.john-content, .bob-content{
-    padding: 10px;
+.john-content,
+.bob-content {
+  padding: 10px;
 }
 
 /* Style- Contact Us */
 
 .contactform input {
-    width: 100%;
+  width: 100%;
 }
 
 #fullname,
 #email {
-    border: 1px solid black;
-    box-sizing: border-box;
-    margin-bottom: 20px;
+  border: 1px solid black;
+  box-sizing: border-box;
+  margin-bottom: 20px;
 }
 #message {
-height: 150px;
-margin-bottom: 15px;
-
+  height: 150px;
+  margin-bottom: 15px;
 }
 
 .contactus .button {
-    font-size: 20px;
-    background-color: #222;
-    color: #c78c06;
-    text-align: center;
-    text-decoration: none;
-    padding: 5px;
+  font-size: 20px;
+  background-color: #222;
+  color: #c78c06;
+  text-align: center;
+  text-decoration: none;
+  padding: 5px;
 }
 
 /* Styling Operation Hours */
 
 table {
-    width: 100%;
-    margin: 0 auto;
+  width: 100%;
+  margin: 0 auto;
 }
 
 th:nth-child(n),
 td:nth-child(n) {
-    border: 1px solid #222;
-    padding: 10px;
+  border: 1px solid #222;
+  padding: 10px;
 }
 
 table thead {
-    background-color: #ffe6ac;
-    text-align: center;
+  background-color: #ffe6ac;
+  text-align: center;
 }
 
 /* Styling Footer */
 
 .site-footer {
-    background-color: #222;
-    color: #c78c06;
-    padding: 30px;
+  background-color: #222;
+  color: #c78c06;
+  padding: 30px;
 }
 
-/*****************  
-    Desktop Style
-******************/
+/**********************  
+     Desktop Style
+***********************/
 
 /*  Set with a screen size with a minimum width of 760px */
 
 @media screen and (min-width: 760px) {
+  /* Styling navigation list */
 
-/* Styling navigation list */
+  .main-nav {
+    display: flex;
+    align-items: center;
+    background-color: #222;
+    justify-content: center;
+    margin: 0 auto;
+    padding: 30px;
+  }
 
-    .main-nav {
-        display: flex;
-        align-items: center;
-        background-color: #222;
-        justify-content: center;
-        margin: 0 auto;
-        padding: 30px;
-    }
+  .main-nav li {
+    margin: 20px 20px;
+    flex-grow: 1;
+  }
 
-    .main-nav li {
-        margin: 20px 20px;
-        flex-grow: 1;
-    }
+  .nav-list {
+    display: flex;
+    flex-grow: 1;
+  }
+  .search {
+    display: flex;
+    justify-content: flex-start;
+  }
 
-    .nav-list {
-        display: flex;
-        flex-grow: 1;
-    }
-    .search {
-        display: flex;
-        justify-content: flex-start;
-    }
+  /* Styling the banner */
 
+  .banner-content {
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 2em;
+    margin: 0 auto;
+  }
 
-/* Styling the banner */
+  /*  Grids should be in 2 columns in About Us section */
 
-    .banner-content {
-        background-color: rgba(0, 0, 0, 0.6);
-        padding: 2em;
-        margin: 0 auto;
-    }
+  .about {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+  }
 
-/*  Grids should be in 2 columns in About Us section */
-
-.about {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        align-items: center;
-    }
-
-.about-text{
+  .about-text {
     padding: 10px;
-}
+  }
 
-/* Adding 3 rows and 6 columns for grids */
+  /* Adding 3 rows and 6 columns for grids */
 
- .services  {
-        display: grid;
-        grid-template-columns:repeat(6, 1fr) ;
-        grid-template-rows: repeat(3, auto);
-        grid-template-areas:
-        "header header header header header header"
-        "digi digi digi market market market"
-        "vid vid web web print print";
-        gap:1em;
-    }
-    .services h2{
-        grid-area: header;
-    }
-    .services .digital{
-        grid-area: digi;
-    }
-    .services .marketing{
-        grid-area: market;
-    }
-    .services .video{
-        grid-area: vid;
-    }
-    .services .web{
-        grid-area: web;
-    }
-    .services .print{
-        grid-area: print;
-    }
-    /* Our Team */
+  .services {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(3, auto);
+    grid-template-areas:
+      "header header header header header header"
+      "digi digi digi market market market"
+      "vid vid web web print print";
+    gap: 1em;
+  }
+  .services h2 {
+    grid-area: header;
+  }
+  .services .digital {
+    grid-area: digi;
+  }
+  .services .marketing {
+    grid-area: market;
+  }
+  .services .video {
+    grid-area: vid;
+  }
+  .services .web {
+    grid-area: web;
+  }
+  .services .print {
+    grid-area: print;
+  }
+  /* Our Team */
 
-    .ourteam {
-        padding: 30px;
-    }
+  .ourteam {
+    padding: 30px;
+  }
 
-    .john {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-    }
+  .john {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
 
-    .bob {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-    }
+  .bob {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
 
-    .bob-img {
-        grid-column: 2;
-        padding: 20px;
-    }
-    .john-img{
-        padding: 20px;
-    }
+  .bob-img {
+    grid-column: 2;
+    padding: 20px;
+  }
+  .john-img {
+    padding: 20px;
+  }
 
-    .bob-content {
-        grid-row: 1;
-    }
+  .bob-content {
+    grid-row: 1;
+  }
 
-    /* Styling contact form */
+  /* Styling contact form */
 
-    .contact-us {
-        display: grid;
-        grid-template-columns:repeat(2, 1fr);
-        grid-template-rows: 1fr auto auto;
-    }
-    
-    .location {
-        grid-row: 1;
-        grid-column: 2;
-        padding-left: 20px;
-        margin-top: 90px;
-        padding-bottom:20px;
-    }
+  .contact-us {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr auto auto;
+  }
 
-    .operation {
-        grid-column: 1 / span 2;
-        margin-bottom: 20px;
-    }
+  .location {
+    grid-row: 1;
+    grid-column: 2;
+    padding-left: 20px;
+    margin-top: 90px;
+    padding-bottom: 20px;
+  }
 
+  .operation {
+    grid-column: 1 / span 2;
+    margin-bottom: 20px;
+  }
 }
