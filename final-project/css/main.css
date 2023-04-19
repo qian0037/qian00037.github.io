@@ -294,6 +294,10 @@ table thead {
     text-align: center;
 }
 
+.location{
+    width: 100%;
+}
+
 /* Styles- Footer */
 .site-footer {
     background-color: #222;
