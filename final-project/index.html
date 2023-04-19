@@ -28,34 +28,37 @@
             </div>
             <ul class="nav-list">
                 <li>
+       <!-- Adding anchor tags-ids that jump to each section -->
                     <a href="index.html">Home</a>
                     </li>
                 <li>
-                    <a href="#about">About Us</a>
+                    <a href="#aboutus">About Us</a>
                     </li>
                 <li>
-                    <a href="#service">Services</a>
+                    <a href="#ourservices">Services</a>
                 </li>
                 <li>
-                    <a href="#team">Team</a>
+                    <a href="#ourteam">Team</a>
                 </li>
                 <li>
-                    <a href="#contact">Contact</a>
+                    <a href="#contactus">Contact</a>
                     </li>
             </ul>
             <div class="search">
                 <input type="search" placeholder="Search" name="search">
-                <button class="searchbutton" type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+                <button type="submit" class="button-search"><i
+                    class="fa-sharp fa-solid fa-magnifying-glass"></i></button>
+                <!-- Adding a clickable submit button -->
             </div>
         </nav>
-        
+        <!-- Adding a div for banner -->
         <div class="banner">
-            <div class="bannercontent">
+            <div class="banner-content max-width" >
             <h1>
                 Welcome to Three Star Media
             </h1>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus asperiores quaerat laboriosam magnam explicabo? Atque blanditiis ratione molestias. Consectetur necessitatibus obcaecati officiis quod. Vel facilis distinctio maxime natus eos veritatis!</p>
-            <button class="connectus"><a href="connect">Connect with us</a></button>
+            <button class="button-connect" type="button" ><a href="#contactus">Connect with us <i class="fa-sharp fa-solid fa-play"></i></a></button>
         </div>
             </div>
         </header>
@@ -63,24 +66,26 @@
         <main class="content">
             <!-- Adding section for content about us-->
             <section id="aboutus" class="about">
+                <div class="about max-width">
                 <img src="images/about-us.jpg" alt="About us" class="aboutus-img">
                 <div class="about-content">
                 <h2>
                     About Us
                 </h2>
-                <p >
+                <p>
                     Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aperiam officiis dolor quod ut deleniti, laudantium ratione, natus necessitatibus consequatur ab saepe voluptatem praesentium omnis architecto neque repudiandae cumque quisquam ipsam.
-                    
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere, dolorum? Odio magnam reiciendis ex rerum in consequatur itaque dolorum porro temporibus numquam optio consequuntur suscipit, nam laudantium sequi adipisci natus!
                 </p>
             </div>
+        </div>
             </section>
             <section id="ourservices" class="services">
+                <div class="cards max-width">
                 <h2>
                     Our Services
                 </h2>
                 <!-- Adding section for digital content -->
-                <div class="digital">
+                <div class="card digital">
                     <img src="images/digital.jpg" alt="digital">
                 <h3>
                     Digital transformation
@@ -88,14 +93,13 @@
                 <p>
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta delectus ipsum assumenda ex excepturi aspernatur cum repellat architecto molestias, amet deserunt dolorem at ea corporis corrupti, magnam sunt sequi dignissimos!
                 </p>
-        
                 <br>
-                <button class="button-digital"><a href="digital.html" class="anchorTag">Digital Plans <i class="fa-sharp fa-solid fa-play"></i></a>
+                <button class="button-digital"><a href="digital.html" >Digital Plans <i class="fa-sharp fa-solid fa-play"></i></a>
             </button>
         </div>
             </section>
             <!-- Adding section for marketing content -->
-            <div class="marketing">
+            <div class="card marketing">
                 <img src="images/marketing.jpg" alt="marketing">
                 <h3>
                     Marketing
@@ -105,11 +109,11 @@
                 </p>
                 
                 <br>
-                <button class="button-marketing"><a href="marketing.html" class="anchorTag">Marketing Plans <i class="fa-sharp fa-solid fa-play"></i></a>
+                <button class="button-marketing"><a href="marketing.html" >Marketing Plans <i class="fa-sharp fa-solid fa-play"></i></a>
                 </button>
              </div>
             <!-- Adding section for video content -->
-            <div class="video">
+            <div class="card video">
                 <img src="images/video.jpg" alt="video">
                 <h3>
                     Video Production
@@ -119,11 +123,11 @@
                 </p>
                 
                 <br>
-                <button class="button-video"><a href="video.html" class="anchorTag">Video Plans <i class="fa-sharp fa-solid fa-play"></i></a>
+                <button class="button-video"><a href="video.html" >Video Plans <i class="fa-sharp fa-solid fa-play"></i></a>
             </button>
         </div>
             <!-- Adding section for web content -->
-            <div class="web">
+            <div class="card web">
                 <img src="images/web.jpg" alt="web">
                 <h3>
                     Web Development
@@ -133,11 +137,11 @@
                 </p>
                 
                 <br>
-                <button class="button-web"><a href="web.html" class="anchorTag">Web Plans <i class="fa-sharp fa-solid fa-play"></i></a>
+                <button class="button-web"><a href="web.html" >Web Plans <i class="fa-sharp fa-solid fa-play"></i></a>
                 </button>
             </div>
                 <!-- Adding section for print content -->
-                <div class="print">
+                <div class="card print">
                     <img src="images/print.jpg" alt="print">
                     <h3>
                         Print
@@ -146,42 +150,38 @@
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta delectus ipsum assumenda ex excepturi aspernatur cum repellat architecto molestias, amet deserunt dolorem at ea corporis corrupti, magnam sunt sequi dignissimos!
                     </p>
                     <br>
-                   <button class="button-print"> <a href="print.html" class="anchorTag">Print Plans
+                   <button class="button-print"> <a href="print.html" >Print Plans
                         <i class="fa-sharp fa-solid fa-play"></i></a>
                         </button>
                     </div>
-                
             </section>
                     <!-- Adding section for vision content -->
-                        <section class="vision">
-                            <img src="images/vision.jpg" alt="vision">
-                            <div class="vision-content">
+                        <section id="ourvision" class="vision">
+                            <div class="vision-content max-width">
                         <h3>
                             Our Vision
                         </h3>
                         <p>
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta delectus ipsum assumenda ex excepturi aspernatur cum repellat architecto molestias, amet deserunt dolorem at ea corporis corrupti, magnam sunt sequi dignissimos!
                         </p>
-                        
                         <br>
-                        <button class="button-vision"><a href="learn.html" class="anchorTag">Learn More <i class="fa-sharp fa-solid fa-play"></i></a>
-                        </div>
+                        <button class="button-vision"><a href="learn.html" >Learn More <i class="fa-sharp fa-solid fa-play"></i></a>
                     </button>
+                </div>
             </section>
                         <!-- Adding section for team content-->
-                        <section id="team">
-                            <div class="ourteam">
+                        <section id="ourteam" class="team">
+                            <div class="team-content max-width">
                             <h2>
                                 Our Team
                             </h2>
-                            <div class="team-content">
                             <div class="john"> 
                             <img src="images/john.jpg" alt="A picture of John Doe" class="john-img">
-                            <div class="john-content"></div>
+                            <div class="john-content">
                          <h3>
                                 John Doe
                             </h3>
-                            <h5 class="john">
+                            <h5>
                                 CEO and Co-owner
                             </h5>
                             <hr>
@@ -205,11 +205,11 @@
                                 </p>
                             </div>
                             </div>
-                            </div>
                         </div>
                 </section>
                 <!-- Adding section for contact form-->
-                <section id="contact" class="contact">
+                <section id="contactus" class="contact">
+                    <div class="contact-us max-width">
                     <h2>
                         Contact Us
                     </h2>
@@ -238,6 +238,7 @@
                         </div>
                         </form>  
                     </div>
+                </div>
                  <!-- Adding section for operation table-->
                     <div class="operation">
                     <h3>
@@ -263,7 +264,6 @@
                     </table>
                     </div>
                  <!-- Adding section for map-->
-
                     <div class="location">
                     <h3>
                         Location
@@ -273,16 +273,15 @@
                     </div> 
                 </div>
             </section>
-            </section>
         </main>
 </div>
-</body>
 <!-- Site Footer -->
 <footer class="site-footer">
-    <div class="copyright">
+    <div class="copyright max-width">
     &copy; Copyright Three Star Media, 2020
     <br>
     All images are taken from <a href="unsplash.com">Unsplash</a>
 </div>
 </footer>
+</body>
 </html>
