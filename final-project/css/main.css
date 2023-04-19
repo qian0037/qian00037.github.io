@@ -122,7 +122,7 @@ h5{
     margin: 0 auto;
 }
 .search input{
-    width: 90%;
+    width: 80%;
     padding: 10px;
 }
 .button-search {
@@ -131,6 +131,7 @@ h5{
     padding: 15px;
     font-size: 1rem;
     border: 1.5px solid #c78c06;
+    
 }
 
 /* Styling the Banner */
@@ -170,6 +171,7 @@ h5{
 }
 
 /* Styling About us */
+
 .aboutus-img{
 display: block;
 background-color: #FFE6AC;
@@ -183,6 +185,7 @@ width: 100%;
 }
 
 /* Styling Buttons */
+
 .card button {
     background-color: #222;
     text-decoration: none;
@@ -341,14 +344,6 @@ table thead {
         display: inline;
         margin: 20px 20px;
         flex-grow: 1;
-    }
-
-    .services,
-    .team,
-    .contact 
-    table {
-        margin: 0 auto;
-        padding: 30px;
     }
 
 /* Styling the banner */
