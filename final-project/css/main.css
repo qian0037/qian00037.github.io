@@ -75,7 +75,7 @@ h5{
     Mobile Style
 ******************/
 
-/* Styles- Heading */
+/* Styling Heading */
 /* Styling the logo */
 .logo {
     display: flex;
@@ -84,7 +84,7 @@ h5{
     padding: 0;
 }
 
-/* Styles- Navigation */
+/* Styling Navigation */
 
 .nav {
     text-align: center;
@@ -182,7 +182,7 @@ width: 100%;
     padding: 20px;
 }
 
-/* Styles- Buttons */
+/* Styling Buttons */
 .card button {
     background-color: #222;
     text-decoration: none;
@@ -198,7 +198,7 @@ width: 100%;
     padding-top: 20px;
     padding-bottom: 20px;
 }
-/* Styles- Vision */
+/* Styling Vision */
 
 .vision {
     background-image: url(../images/vision.jpg);
@@ -222,7 +222,7 @@ width: 100%;
     background-color: rgba(0,0,0,0.6);
 }
 
-/* Styles- Our Team */
+/* Styling Our Team */
 
 .ourteam {
     background-color: white;
@@ -276,7 +276,14 @@ margin-bottom: 15px;
     padding: 5px;
 }
 
-/* Styles- Operation Hours */
+/* Styling map*/
+
+.location iframe {
+    width: 95%;
+    margin: 0 auto;
+}
+
+/* Styling Operation Hours */
 
 table {
     width: 100%;
@@ -294,11 +301,8 @@ table thead {
     text-align: center;
 }
 
-.location{
-    width: 100%;
-}
+/* Styling Footer */
 
-/* Styles- Footer */
 .site-footer {
     background-color: #222;
     color: #c78c06;
