@@ -7,7 +7,7 @@ html{
     font-family: 'Open Sans', sans-serif;
 }
 
-/* Styling width and position for the website */
+/* Styling width and position for container */
 
 .container{
     max-width: 1200px;
@@ -74,6 +74,9 @@ h5{
     margin: 20px;
 }
 
+.card-content{
+    padding: 10px;
+}
 /*****************  
     Mobile Style
 ******************/
@@ -292,7 +295,7 @@ margin-bottom: 15px;
 
 table {
     width: 100%;
-    margin: 0;
+    margin: 0 auto;
 }
 
 th:nth-child(n),
@@ -427,30 +430,23 @@ table thead {
     }
 
     /* Styling contact form */
-    .contactus{
+
+    .contact-us {
         display: grid;
         grid-template-columns:repeat(2, 1fr);
         grid-template-rows: 1fr auto auto;
-        grid-template-areas: 
-        "header header"
-        "contact location"
-        "operation operation";
-     }
+    }
+    
+    .location {
+        grid-row: 1;
+        grid-column: 2;
+        padding-left: 20px;
+        margin-top: 90px;
+        padding-bottom:20px;
+    }
 
-     .contactus h2 {
-        grid-area: header;
-     }
-
-     .contact-content{
-        grid-area: contact;
-     }
-
-     .location{
-        grid-area: location;
-     }
-
-     .operation{
-        grid-area: operation;
-     }
+    .operation {
+        grid-column: 1 / span 2;
+    }
 
 }
