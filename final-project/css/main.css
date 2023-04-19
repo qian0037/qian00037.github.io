@@ -148,7 +148,7 @@ h5{
     width: 100%;
     background-size: cover;
     background-repeat: no-repeat;
-    margin: 0;
+    margin: 0 auto;
     padding-top: 120px;
     height: 800px;
 
@@ -172,7 +172,6 @@ h5{
 .button-connect {
     font-size: 20px;
     text-decoration: none;
-    margin: 10px;
     padding: 30px;
     background-color: #c78c06;
     color: #222;
@@ -239,10 +238,10 @@ width: 100%;
     display: flex;
 
 }
-/* .team {
+.team {
     background-color: white;
-    padding: 30px;
-} */
+    margin-top: 20px;
+} 
 
 /* Flex 50% each */
 
@@ -447,6 +446,7 @@ table thead {
 
     .operation {
         grid-column: 1 / span 2;
+        margin-bottom: 20px;
     }
 
 }
