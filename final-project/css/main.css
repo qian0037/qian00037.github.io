@@ -158,10 +158,9 @@ h5 {
   color: white;
   margin: 10px;
 }
+
 .banner-content {
   background-color: rgba(0, 0, 0, 0.6);
-  padding: 2em;
-  margin: 30px;
 }
 
 /* Styling the clickable anchor tag */
