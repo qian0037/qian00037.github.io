@@ -61,7 +61,7 @@ h3 {
 
 h4 {
   font-size: 1.5rem;
-}
+} 
 
 h5 {
   font-size: 1rem;
@@ -124,7 +124,7 @@ h5 {
   justify-content: center;
   background-color: #222;
   height: 50px;
-  margin: 0 auto;
+  padding-bottom: 20px;
 }
 .search input {
   width: 80%;
@@ -150,6 +150,13 @@ h5 {
   padding-top: 120px;
   height: 800px;
 }
+
+  .banner-content {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 2em;
+    margin: 50px;
+}
+
 .banner h1 {
   color: white;
   margin: 10px;
@@ -157,10 +164,6 @@ h5 {
 .banner p {
   color: white;
   margin: 10px;
-}
-
-.banner-content {
-  background-color: rgba(0, 0, 0, 0.6);
 }
 
 /* Styling the clickable anchor tag */
@@ -225,7 +228,7 @@ h5 {
   padding: 30px;
   border: 1px solid #c78c06;
   text-decoration: none;
-  background-color: rgba(0, 0, 0, 0.6);
+  background-color: rgba(0, 0, 0, 0.5);
 }
 
 /* Styling Our Team */
@@ -343,14 +346,6 @@ table thead {
     justify-content: flex-start;
   }
 
-  /* Styling the banner */
-
-  .banner-content {
-    background-color: rgba(0, 0, 0, 0.6);
-    padding: 2em;
-    margin: 0 auto;
-  }
-
   /*  Grids should be in 2 columns in About Us section */
 
   .about {
@@ -399,12 +394,7 @@ table thead {
     padding: 30px;
   }
 
-  .john {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-  }
-
-  .bob {
+  .john, .bob {
     display: grid;
     grid-template-columns: 1fr 1fr;
   }
@@ -426,7 +416,7 @@ table thead {
   .contact-us {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: 1fr auto auto;
+    grid-template-rows: 1fr auto;
   }
 
   .location {
