@@ -317,7 +317,7 @@ html {
        Desktop Style
   ***********************/
   
-  /*  Set with a screen size with a minimum width of 760px */
+  /*  Set for a screen size with a minimum width of 760px */
   
   @media screen and (min-width: 760px) {
     /* Styling navigation list */
